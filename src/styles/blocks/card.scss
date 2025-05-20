@@ -1,4 +1,4 @@
-@import './variables.scss';
+@import './variables';
 
 .card {
   display: flex;
@@ -7,7 +7,7 @@
   border: 1px #f3f3f3 solid;
   border-radius: 5px;
   width: 200px;
-  padding: 2 * $card-padding $card-padding $card-padding;
+  padding: (2 * #{$card-padding}) $card-padding $card-padding;
   transition-duration: 300ms;
 
   font-family: Roboto, sans-serif;
