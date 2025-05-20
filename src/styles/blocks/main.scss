@@ -4,7 +4,7 @@ $number-of-columns: 1;
   display: grid;
   grid-auto-flow: row;
   gap: 46px 48px;
-  padding: 50px 40;
+  padding: 50px 40px;
   grid-template-columns: repeat(1, 200px);
   justify-content: center;
 
